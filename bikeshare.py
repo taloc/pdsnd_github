@@ -97,7 +97,7 @@ def load_data(city, month, day):
     df['hour'] = df['Start Time'].dt.hour
     return df
 
-
+# The time_stats function scope is only for the months of Jan to June, all days of the week and time stap is in 24 hrs format
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
