@@ -4,11 +4,15 @@ Python file created on March 7 2019
 ## Bikeshare project - Rodolfo
 
 
-### Description
-Describe what your project is about and what it does
+## Description
+This program generates descriptive statistics from a dataset of a bikesharing company in 3 cities (Chicago, Washington and New York). It's written in python 3.7
 
 ### Files used
-Include the files used
+It uses 3 csv files:
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Git Cheatsheet:
+https://gist.github.com/hofmannsven/6814451
