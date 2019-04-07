@@ -42,7 +42,7 @@ def get_filters():
 
     # Loop to get user input for month (all, january, february, ... , june)
     while True:
-        month = input('Enter month name January, February, March, April, May, June, or all: \n').lower()
+        month = input('Enter month from only these options January, February, March, April, May, June, or all: \n').lower()
         if month in months.keys():
             print('Thank you, you have selected {},'.format(month.title()),
                   'now please select the day to be analyzed.')
