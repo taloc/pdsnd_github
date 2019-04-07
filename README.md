@@ -13,6 +13,8 @@ It uses 3 csv files:
 - new_york_city.csv
 - washington.csv
 
+The python file is called bikeshare.py
+
 ### Credits
 Git Cheatsheet:
 https://gist.github.com/hofmannsven/6814451
