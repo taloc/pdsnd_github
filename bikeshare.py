@@ -42,7 +42,7 @@ def get_filters():
 
     # Loop to get user input for month (all, january, february, ... , june)
     while True:
-        month = input('Enter month name January, February, March, April, May, June, or all: \n').lower()
+        month = input('Enter month from only these options January, February, March, April, May, June, or all: \n').lower()
         if month in months.keys():
             print('Thank you, you have selected {},'.format(month.title()),
                   'now please select the day to be analyzed.')
@@ -97,7 +97,7 @@ def load_data(city, month, day):
     df['hour'] = df['Start Time'].dt.hour
     return df
 
-
+# The time_stats function scope is only for the months of Jan to June, all days of the week and time stap is in 24 hrs format
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -234,7 +234,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         raw_data(df)
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nTo restart select: yes or no.\n')
         if restart.lower() != 'yes':
             break
 
